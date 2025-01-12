@@ -11,14 +11,62 @@ a{text-decoration: none;}
     width:100%;
 }
 .container{
-    width:107;
+    width: 1080px;;
+    margin: 0 auto;
 }
-/*--------------This is a Hedar Option------------------*/
-.hedaroption{}
-.nave{}
-.nave ul li{}
-.nave ul li a{}
-/*--------------This is a Main Content------------------*/
+/*----------------This is a Hedar Option------------------*/
+.hedaroption{
+    background: #2b3240;
+}
+.hedaroption h2{
+    text-align: center;
+    color: #fff;
+}
+.nave ul li{
+    float: right;
+    display: block;
+}
+.nave ul li a{
+    display: block;
+    background: #4a566d;
+    color: #fff;
+    margin-left: 1px;
+    padding: 5px 15px;
+}
+.nave ul li a:hover{
+    background: #2b3240;
+}
+/*----------------This is a Main Content------------------*/
+.conent_option{}
+/*-------This is a left_sidebar-------*/
+.left_sidebar{
+    float: left;
+    background: #2b3240;
+    width: 300px;
+}
+.same_sitebar{}
+.same_sitebar h2{
+    background: #4a566d;
+    color: #fff;
+    padding: 8px 10px;
+    border-bottom: 2px solid #949494;
+}
+.same_sitebar ul{}
+.same_sitebar ul li{}
+.same_sitebar ul li a{}
+/*-------This is a content-------*/
+.content{
+    float: right;
+    background: #88d3ab;
+    width: 760px;
+}
 /*--------------This is a Footer section------------------*/
-.footer{}
-.footer p{}
+.footer{
+    background: #cacaca;
+}
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    height: 60px;
+    padding-top: 40px;
+}
