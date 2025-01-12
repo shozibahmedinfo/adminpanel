@@ -21,6 +21,7 @@ a{text-decoration: none;}
 .hedaroption h2{
     text-align: center;
     color: #fff;
+    padding-top: 30px;
 }
 .nave ul li{
     float: right;
@@ -34,7 +35,8 @@ a{text-decoration: none;}
     padding: 5px 15px;
 }
 .nave ul li a:hover{
-    background: #2b3240;
+    background: #ffffff;
+    color: #000;
 }
 /*----------------This is a Main Content------------------*/
 .conent_option{}
@@ -44,16 +46,31 @@ a{text-decoration: none;}
     background: #2b3240;
     width: 300px;
 }
-.same_sitebar{}
 .same_sitebar h2{
+    display: block;
     background: #4a566d;
     color: #fff;
     padding: 8px 10px;
     border-bottom: 2px solid #949494;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-.same_sitebar ul{}
-.same_sitebar ul li{}
-.same_sitebar ul li a{}
+.same_sitebar ul li{
+    display: block;
+    background: #4a566d;
+    padding: 5px 20px;
+    border-bottom: 1px solid #5f6d8a;
+}
+.same_sitebar ul li:last-child{
+    border-bottom: 0px solid #5f6d8a;
+}
+.same_sitebar ul li a{
+    display: block;
+    color: #fff;
+}
+.same_sitebar ul li a:hover{
+    color: #000;
+}
 /*-------This is a content-------*/
 .content{
     float: right;
