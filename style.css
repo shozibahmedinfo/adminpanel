@@ -39,7 +39,7 @@ a{text-decoration: none;}
     color: #000;
 }
 /*----------------This is a Main Content------------------*/
-.conent_option{}
+/*.conent_option{}*/
 /*-------This is a left_sidebar-------*/
 .left_sidebar{
     float: left;
@@ -115,4 +115,10 @@ input[type="submit"]:hover{
     height: 60px;
     padding-top: 40px;
     color: #fff;
+}
+.footer p a{
+    color: #ffffff;
+}
+.footer p a:hover{
+    color: #4a566d;
 }
