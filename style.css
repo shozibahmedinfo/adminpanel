@@ -122,3 +122,25 @@ input[type="submit"]:hover{
 .footer p a:hover{
     color: #4a566d;
 }
+/*--------------This is a Other Page------------------*/
+.eidite{
+    text-align: center;
+}
+.eidite th{
+    width: 250px;
+    background: #4a566d;
+    color: #ffffff;
+    padding: 5px;
+}
+.eidite td{
+    padding: 5px;
+}
+.eidite td a:hover{
+    text-decoration:underline;
+}
+.eidite tr:nth-child(2n){
+    background: #d8d7d7;
+}
+.eidite tr:nth-child(2n+1){
+    background: #ffffff;
+}
