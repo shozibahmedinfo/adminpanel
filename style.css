@@ -88,7 +88,7 @@ a{text-decoration: none;}
     padding-bottom: 10px;
     margin-top: 20px;
 }
-input[type="text"],input[type="email"],input[type="password"]{
+input[type="text"],input[type="email"],input[type="password"],input[type="file"]{
     width: 300px;
     margin-bottom: 5px;
     padding: 7px;
@@ -143,4 +143,15 @@ input[type="submit"]:hover{
 }
 .eidite tr:nth-child(2n+1){
     background: #ffffff;
+}
+select{
+    margin-bottom: 5px;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+textarea{
+    margin-left: 10px;
+    height: 90px;
+    width: 315px;
 }
