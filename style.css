@@ -46,13 +46,39 @@ a{text-decoration: none;}
     background: #2b3240;
     width: 300px;
 }
+/*-------This is a exta style-------*/
+.same_sitebars h2{
+    display: block;
+    background: #4a566d;
+    color: #fff;
+    padding: 8px 10px;
+    border-bottom: 2px solid #949494;
+    margin-bottom: 10px;
+}
+.same_sitebars ul li{
+    display: block;
+    background: #4a566d;
+    padding: 5px 20px;
+    border-bottom: 1px solid #5f6d8a;
+}
+.same_sitebars ul li:last-child{
+    border-bottom: 0px solid #5f6d8a;
+}
+.same_sitebars ul li a{
+    display: block;
+    color: #fff;
+}
+.same_sitebars ul li a:hover{
+    color: #000;
+}
+/*-------This is a exta style End-------*/
 .same_sitebar h2{
     display: block;
     background: #4a566d;
     color: #fff;
     padding: 8px 10px;
     border-bottom: 2px solid #949494;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 .same_sitebar ul li{
