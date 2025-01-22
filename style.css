@@ -11,7 +11,7 @@ a{text-decoration: none;}
     width:100%;
 }
 .container{
-    width: 1080px;;
+    width: 1080px;
     margin: 0 auto;
 }
 /*----------------This is a Hedar Option------------------*/
@@ -78,7 +78,6 @@ a{text-decoration: none;}
 }
 .under img{
     width: 765px;
-    height: 410px;
     margin-top: 15px;
 }
 .content_update h2{
