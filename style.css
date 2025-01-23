@@ -21,7 +21,6 @@ a{text-decoration: none;}
 .hedaroption h2{
     text-align: center;
     color: #fff;
-    padding-top: 30px;
 }
 .nave ul li{
     float: right;
@@ -106,6 +105,11 @@ a{text-decoration: none;}
     width: 765px;
     margin-top: 15px;
 }
+.unders img{
+    width: 765px;
+    margin-top: 15px;
+    height: 265px;
+}
 .content_update h2{
     padding: 8px 10px;
     border-bottom: 2px dashed;
@@ -179,4 +183,16 @@ textarea{
     margin-left: 10px;
     height: 90px;
     width: 315px;
+}
+.hedaroption a img{
+    float: left;
+    width: 50px;
+    margin: 25px 15px 25px 25px;
+}
+.hedaroption h1{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.hedaroption h1 a{
+    color: #ffffff;
 }
